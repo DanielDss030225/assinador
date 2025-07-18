@@ -21,7 +21,7 @@ html, body {
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: space-between;
 }
 
 .icon {
@@ -78,7 +78,8 @@ p {
     gap: 15px;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 button {
