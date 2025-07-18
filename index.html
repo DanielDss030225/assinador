@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Assinatura Digital</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <div class="loading-text">Enviando assinatura...</div>
+            <div class="loading-subtext">Aguarde enquanto processamos sua assinatura</div>
+        </div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+        <div class="titulo"> <img class="icon" src="./icon.png">
+        <h1> Sistema de Assinatura Digital</h1> </div>
+        
+        
+        <div class="signature-area">
+            <div class="placeholder" id="placeholder">Assine aqui com o dedo ou caneta touch</div>
+            <canvas id="signatureCanvas"></canvas>
+        </div>
+
+        <div class="buttons">
+            <button class="btn-clear" onclick="clearSignature()">Limpar</button>
+            <button class="btn-confirm" id="confirmBtn" onclick="confirmSignature()" disabled>Confirmar Assinatura</button>
+        </div>
+
+        <div class="status" id="status"></div>
+        <p>Mais uma ideia Mindfulness</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
