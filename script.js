@@ -224,7 +224,7 @@ async function confirmSignature() {
         window.open(downloadURL, '_self');
         
         // Opcional: mostrar mensagem de sucesso brevemente
-        showStatus('Assinatura enviada com sucesso! Abrindo imagem...', 'success');
+        //showStatus('Assinatura enviada com sucesso! Abrindo imagem...', 'success');
         setTimeout(() => {
             hideStatus();
         }, 3000);
