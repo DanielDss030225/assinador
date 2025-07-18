@@ -21,7 +21,7 @@ html, body {
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content:center;
 }
 
 .icon {
@@ -45,7 +45,7 @@ h1 {
 .signature-area {
     border: 3px dashed #ddd;
     border-radius: 15px;
-    margin: 20px 0;
+    margin: 10px 0;
     position: relative;
     background: #fafafa;
     overflow: hidden;
